@@ -77,7 +77,7 @@ export default function TaskCard({ task, onUpdate, onDelete }) {
 
       {/* Edit Modal */}
       {isEditing && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg w-96">
             <h2 className="text-xl font-semibold mb-3">Edit Task</h2>
 
